@@ -416,6 +416,7 @@
                 border:4px solid greenyellow;
                 width: 100px;
                 height: 100px;
+                font-weight: bold;
             }
             td{
                 border-radius: 40px;
@@ -437,6 +438,7 @@
                 
                 color: blue;
                 background-color: lightskyblue;
+                font-style: oblique;
                 
 
             }
@@ -444,10 +446,22 @@
 
                 background-color: blueviolet;
             }
+
+            h1{
+                color: yellow;
+                font-size: 300%;
+                font-style: oblique;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #plaatje{
+                height: 25%;
+                width: 25%;
+            }
            
         </style>
     </head>
     <body>
+        
        <fieldset style="float: left;">
         <div>1</div>
             <table id="table1" style="float: left;">
@@ -559,11 +573,11 @@
             <button onclick="rij7rood()">rood</button>
             
         </fieldset>
-        
+        <h1>
+            <img src="plaatje.jpeg" id="plaatje"> <br>
+            4 op een rij
+        </h1>
 
-        <p>
-            <button id="opnieuwbutton" onclick="opnieuw()"> Opnieuw </button>
-        </p>
         
         <fieldset id="Uitleg">
         <p>
@@ -576,6 +590,11 @@
 
         </p>
     </fieldset>
+
+    <p>
+        <button id="opnieuwbutton" onclick="opnieuw()"> Opnieuw </button>
+    </p>
+    
         
         
     </body>
