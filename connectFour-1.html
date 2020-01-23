@@ -279,6 +279,14 @@
                                     }
                                 }
                                 
+                          /*    if (coderij6=="111100") {
+                                if (r6[x-1].style.backgroundColor != "yellow") {
+                                if (r6[x-1].style.backgroundColor == "red") {
+                                alert("Rood wint!"); 
+                                
+                                    }
+                                }
+                            } */
                                 console.log(coderij6);
                             
                     }
@@ -389,6 +397,7 @@
       function opnieuw(){
           location.reload();
       }
+      
 
           
         </script>
@@ -423,6 +432,17 @@
             }
             div{
                 color: blue;
+            }
+            #Uitleg{
+                
+                color: blue;
+                background-color: lightskyblue;
+                
+
+            }
+            body{
+
+                background-color: blueviolet;
             }
            
         </style>
@@ -544,6 +564,18 @@
         <p>
             <button id="opnieuwbutton" onclick="opnieuw()"> Opnieuw </button>
         </p>
+        
+        <fieldset id="Uitleg">
+        <p>
+            <h3>Uitleg</h3>
+            * Geel en Rood spelen om de beurt een steen <br>
+            * Zodra één van de twee spelers verticaal, horizontaal of diagonaal  
+            4 stenen van dezelfde kleur achter elkaar op een rij heeft wint deze speler <br>
+            * Druk op Opnieuw om een nieuw spel te starten
+
+
+        </p>
+    </fieldset>
         
         
     </body>
